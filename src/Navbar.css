@@ -1,0 +1,30 @@
+nav {
+  z-index: 888;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+}
+  
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav > div > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > div:hover {
+  cursor: pointer;
+}
+
+nav > div > a > img {
+  height: 64px;
+  width: 64px;
+}
