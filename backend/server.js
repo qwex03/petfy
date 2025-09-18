@@ -7,7 +7,7 @@ const app = express()
 const server = http.createServer(app);
  
 
-mongoose.connect('mongodb+srv://Quentin:tinder123@tinder.4xtmz.mongodb.net/?retryWrites=true&w=majority&appName=tinder', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true})
 
 const Animal = require('./models/Animal');
 
